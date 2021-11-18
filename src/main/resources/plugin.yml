@@ -1,0 +1,12 @@
+name: Playing_Yut
+version: ${project.version}
+main: playing_yut.playing_yut.Playing_Yut
+api-version: 1.16
+commands:
+  윷:
+    description: yut command
+    aliases:
+    - yut
+    permission: op.윷
+    permission-message: 권한이 부족합니다.
+    usage: /<command> <닉네임>
